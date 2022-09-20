@@ -1,0 +1,17 @@
+
+
+body{
+    background-color: pink;
+    color: blue;
+}
+
+li{
+    margin-right: 600px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
