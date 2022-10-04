@@ -1,0 +1,12 @@
+body{
+    background-color: #fca6c9;
+}
+
+h1:hover {
+    color: white
+}
+
+header{
+    margin: 0 auto;
+    width: 500px;
+}
