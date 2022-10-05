@@ -22,6 +22,10 @@ body {
     text-align: center;
 }
 
+.card-img {
+    width: 500px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
