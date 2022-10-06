@@ -1,0 +1,10 @@
+HTML
+
+Elements can repeat..
+Class vs ID.. Whats the difference?
+ID can only be used in one element while
+Class can be used multiple times
+
+
+ID in CSS is called by using #<name of ID>
+Class in CSS is called by using .<name of Class>
