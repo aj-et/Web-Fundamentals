@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    /* border: 1px solid black; */
+}
+
+/* .icon {
+    width: 50px;
+} */
+
+.icon img {
+    border: 5px green solid;
+    border-radius: 50%;
+    width: 150px;
+}
