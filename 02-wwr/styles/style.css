@@ -4,6 +4,10 @@
 
 body {
     background-color: whitesmoke;
+    font-family: "Open Sans";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
     /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/%D4%B1%D5%A6%D5%A1%D5%BF_%D5%A3%D5%A5%D5%BF.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,11 +16,14 @@ body {
 
 footer {
     background-color: #FFB703;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
     color: red;
     text-decoration: none;
+    font-size: .8em;
 }
 
 footer a:hover {
@@ -35,6 +42,15 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+    width: 80px;
+}
+
+h2 {
+    margin: 0;
+}
+
 h4 {
     color: #023047;
 }
@@ -47,14 +63,19 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 nav a {
     text-align: center;
     color: #023047;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
-    background-color: #023047;
+    background-color: rgba(2, 48, 71); /* Same color with hex I put 0.3 for opacity */
     color: #FFB703;
 }
 
@@ -69,6 +90,10 @@ nav a:hover {
     background-color: #FFB703;
     color: red;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .button-box {
@@ -77,10 +102,18 @@ nav a:hover {
 
 .card-img {
     width: 500px;
+    border: 10px solid #023047;
 }
 
 .home-title {
     color: #023047;
+    font-family: "Rock Salt";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.icon {
+    padding-top: 10px;
 }
 
 .icon, .logo {
@@ -89,14 +122,25 @@ nav a:hover {
 
 .msg {
     background-color: #FFB703;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
 }
 
 .msg h2 {
     color: #023047;
+    font-family: "Rock Salt";
 }
 
 .msg p {
     color: #023047;
+    font-size: .8em;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 /* id selectors */
@@ -118,4 +162,8 @@ nav a:hover {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
