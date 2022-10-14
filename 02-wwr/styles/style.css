@@ -125,16 +125,13 @@ nav a:hover {
     padding: 35px;
 }
 
-.msg p {
-    padding-bottom: 15px;
-}
-
 .msg h2 {
     color: #023047;
     font-family: "Rock Salt";
 }
 
 .msg p {
+    padding-bottom: 15px;
     color: #023047;
     font-size: .8em;
 }
