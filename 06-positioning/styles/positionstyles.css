@@ -69,9 +69,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 100px;
-  grid-column: 10px;
   
-
 }
 .red3 {
   width: 100%; 
