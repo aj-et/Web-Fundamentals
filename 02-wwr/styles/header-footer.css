@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Rock+Salt&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: "Open Sans";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #FFB703;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+footer a:hover {
+    color: #023047;
+}
+
+footer h3 {
+    color: #023047;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+    width: 80px;
+}
+
+header {
+    background-color: #FFB703;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #023047;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: rgba(2, 48, 71);
+    /* Same color with hex I put 0.3 for opacity */
+    color: #FFB703;
+    border-radius: 10px;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+#content {
+    /* border: 1px solid black; */
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#nav-rev {
+    background-color: rgba(2, 48, 71);
+    color: #FFB703;
+    border-radius: 10px;
+}

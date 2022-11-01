@@ -14,7 +14,7 @@ body {
     background-size: cover;  */
 }
 
-footer {
+/* footer {
     background-color: #FFB703;
     padding: 25px 50px;
     margin-top: 200px;
@@ -48,7 +48,7 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
     width: 80px;
-}
+} */
 
 h2 {
     margin: 0;
@@ -58,11 +58,11 @@ h4 {
     color: #023047;
 }
 
-header {
+/* header {
     background-color: #FFB703;
     display: grid;
     grid-template-columns: 150px auto;
-}
+} */
 
 main section {
     text-align: center;
@@ -72,7 +72,7 @@ main section img {
     box-sizing: border-box;
 }
 
-nav {
+/* nav {
     display: flex;
     justify-content: space-around;
 }
@@ -86,10 +86,9 @@ nav a {
 
 nav a:hover {
     background-color: rgba(2, 48, 71);
-    /* Same color with hex I put 0.3 for opacity */
     color: #FFB703;
     border-radius: 10px;
-}
+} */
 
 /* class selectors */
 
@@ -152,9 +151,9 @@ nav a:hover {
     width: 150px;
 }
 
-.logo {
+/* .logo {
     width: 100px;
-}
+} */
 
 .msg {
     background-color: rgb(255, 183, 3, .3);
@@ -241,11 +240,11 @@ nav a:hover {
     /* color: white; */
 }
 
-#logo_link {
+/* #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
-}
+} */
 
 @media screen and (max-width: 900px) {
 
