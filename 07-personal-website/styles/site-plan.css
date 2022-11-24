@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #079DEC;
+    --primary-color: #D8EFFD;
     --secondary-color: #000029;
-    --accent1-color: #FFE491;
-    --accent2-color: #9EB57D;
+    --accent1-color: #FFF5D6;
+    --accent2-color: #D8E2CB;
 
     /* change the values below to your chosen font(s) */
     --heading-font: "Amatic SC";
@@ -23,11 +23,11 @@ Fonts are separated by a | */
     /* paragraph text on a white background */
     --paragraph-color-on-color: #000029;
     /* paragraph text on a colored background */
-    --paragraph-background-color: #079DEC;
+    --paragraph-background-color: #D8EFFD;
     --nav-link-color: #000029;
-    --nav-background-color: #079DEC;
+    --nav-background-color: #D8EFFD;
     --nav-hover-link-color: #000029;
-    --nav-hover-background-color: #FFE491;
+    --nav-hover-background-color: #FFF5D6;
 }
 
 
